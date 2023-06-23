@@ -5,6 +5,12 @@ import './ufa.css';
 import {AiOutlineSketch,AiFillStar} from "react-icons/ai";
 function UfaContainer() {
   const [count, setCount] = useState(0)
+  const incrementCount = () => {
+    setCount(count + 1);
+  };
+  const decrementCount = () => {
+    setCount(count - 1);
+  };
 
   return (
     <>
@@ -38,7 +44,9 @@ function UfaContainer() {
                 </div>
                     
                 <div className='uwu3'>
-                    
+                    <button onClick={incrementCount}>+</button>
+                    <h2>{count}</h2>
+                    <button onClick={decrementCount}>-</button>
                 </div>
             </div>
         </div>

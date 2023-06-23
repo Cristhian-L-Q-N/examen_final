@@ -61,5 +61,29 @@
 
 }
 .ufacontainer .ufamini2 .uwu3{
+    background-color: indianred;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 
+}
+.ufacontainer .ufamini2 .uwu3 button{
+    border: none;
+    outline: none;
+    text-align: center;
+    line-height:30px;
+    background-color: hotpink;
+    border-radius: 70px;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    
 }
